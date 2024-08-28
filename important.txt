@@ -1,0 +1,16 @@
+1. 라즈베리파이의 방화벽을 뚫어야 한다. 
+=>
+sudo apt update
+sudo apt install ufw
+
+sudo ufw status
+sudo ufw allow 5000
+
+sudo ufw enable / y
+sudo ufw status
+
+
+
+2. Cleartext Traffic 허용 설정해야 한다
+=> network_security_config.xml 파일 생성
+
